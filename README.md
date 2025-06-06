@@ -2,12 +2,15 @@
 
 Esta função AWS Lambda recebe um JSON com informações de uma pessoa e retorna outro json com o calculo imc feito e a classificação da pessoa
 
+
 ⚠️ Validações
   Peso e altura devem ser maiores que zero.
   Se algum valor for inválido ou ausente, será retornado erro 400.
 
+
 📦 Dependências
   Nenhuma. A função utiliza apenas bibliotecas nativas do Python.
+
 
 ▶️ Como testar com Postman
 
